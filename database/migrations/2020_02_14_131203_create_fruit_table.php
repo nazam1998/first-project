@@ -18,7 +18,6 @@ class CreateFruitTable extends Migration
             $table->string('nom');
             $table->double('kg');
             $table->double('prix');
-            $table->timestamps();
         });
     }
 

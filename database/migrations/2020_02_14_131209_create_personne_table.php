@@ -22,7 +22,6 @@ class CreatePersonneTable extends Migration
             $table->integer('Telephone')->length(10);
             $table->boolean('inscrit');
             $table->text('description',120);
-            $table->timestamps();
         });
     }
 
